@@ -65,9 +65,7 @@
     font-weight: bold;
 }
 
-.project-area .button-group button .active {
-    border: none !important;
-}
+.project-area .button-group button:focus {outline:0;}
 
 .project-area .button-group button + button{
     padding-left: 3rem;
