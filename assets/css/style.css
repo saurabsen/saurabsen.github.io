@@ -1,0 +1,77 @@
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+.case-study-card {
+    background: rgba(248, 252, 253, 0.973);
+    /* padding: 2rem 0; */
+    width: 100%;
+    margin: 1rem 0rem;
+    transition: box-shadow .7s ease;
+}
+
+.case-study-card:hover {
+    box-shadow: 0px 1px 12px 2px #949494ad;
+    transition: box-shadow .7s ease;
+}
+
+.bg-primary-new {
+    background-color: #ffffff !important;
+}
+
+.bg-primary-new p {
+    color: black !important;
+}
+
+.navbar.navbar-transparent p {
+    color: #ffffff !important;
+}
+
+.bg-primary-new i {
+    color: black !important;
+}
+
+.navbar.navbar-transparent i {
+    color: #ffffff !important;
+}
+
+.bg-primary-new a {
+    color: black !important;
+}
+
+.navbar.navbar-transparent a {
+    color: #ffffff !important;
+}
+
+.custom-tag {
+    padding: 0.5rem 1rem;
+    background: #e8e8e8;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.project-area{
+    padding: 4rem 0;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
