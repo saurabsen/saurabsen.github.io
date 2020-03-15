@@ -62,10 +62,13 @@
     border: none;
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .project-area .button-group button + button{
     padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .project-area .grid .our-project > .title h4{
